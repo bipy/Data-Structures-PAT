@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28809.33
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Saving James Bond - Hard Version", "Saving James Bond - Hard Version\Saving James Bond - Hard Version.vcxproj", "{F266E5D7-1841-466A-B72C-6E6D3C9DBCD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F266E5D7-1841-466A-B72C-6E6D3C9DBCD5}.Debug|x64.ActiveCfg = Debug|x64
+		{F266E5D7-1841-466A-B72C-6E6D3C9DBCD5}.Debug|x64.Build.0 = Debug|x64
+		{F266E5D7-1841-466A-B72C-6E6D3C9DBCD5}.Debug|x86.ActiveCfg = Debug|Win32
+		{F266E5D7-1841-466A-B72C-6E6D3C9DBCD5}.Debug|x86.Build.0 = Debug|Win32
+		{F266E5D7-1841-466A-B72C-6E6D3C9DBCD5}.Release|x64.ActiveCfg = Release|x64
+		{F266E5D7-1841-466A-B72C-6E6D3C9DBCD5}.Release|x64.Build.0 = Release|x64
+		{F266E5D7-1841-466A-B72C-6E6D3C9DBCD5}.Release|x86.ActiveCfg = Release|Win32
+		{F266E5D7-1841-466A-B72C-6E6D3C9DBCD5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0636748-7C75-4C3F-80F8-B6D2AD02A9EC}
+	EndGlobalSection
+EndGlobal

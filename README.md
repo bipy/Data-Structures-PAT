@@ -1,15 +1,6 @@
 # Data-Structures-PAT
-<<<<<<< HEAD
+## 中国大学MOOC 数据结构 
 
-test
+### 浙江大学 陈越
 
-test again
-=======
->>>>>>> 9e57b3ac7a61d0e28e316aab2ef376f8041d4071
->>>>>>>
->>>>>>> 
-
-##test again
-
-
-
+PAT练习题 个人刷题

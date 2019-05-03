@@ -1,0 +1,11 @@
+﻿  源.c
+C:\Users\Perceiver\source\repos\公路村村通\公路村村通\源.c(13,18): warning C4101:  “tp”: 未引用的局部变量
+C:\Users\Perceiver\source\repos\公路村村通\公路村村通\源.c(33,36): warning C4047:  “==”:“void *”与“int”的间接级别不同
+C:\Users\Perceiver\source\repos\公路村村通\公路村村通\源.c(40,44): warning C4047:  “==”:“void *”与“int”的间接级别不同
+C:\Users\Perceiver\source\repos\公路村村通\公路村村通\源.c(31,1): warning C4996:  'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(243): message :  参见“freopen”的声明
+C:\Users\Perceiver\source\repos\公路村村通\公路村村通\源.c(33,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+C:\Users\Perceiver\source\repos\公路村村通\公路村村通\源.c(40,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+  公路村村通.vcxproj -> C:\Users\Perceiver\source\repos\公路村村通\Debug\公路村村通.exe

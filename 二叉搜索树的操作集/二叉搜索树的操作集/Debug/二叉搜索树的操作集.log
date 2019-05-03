@@ -1,0 +1,15 @@
+﻿  源.c
+C:\Users\Perceiver\source\repos\二叉搜索树的操作集\二叉搜索树的操作集\源.c(42): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+C:\Users\Perceiver\source\repos\二叉搜索树的操作集\二叉搜索树的操作集\源.c(44): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+C:\Users\Perceiver\source\repos\二叉搜索树的操作集\二叉搜索树的操作集\源.c(50): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+C:\Users\Perceiver\source\repos\二叉搜索树的操作集\二叉搜索树的操作集\源.c(52): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+C:\Users\Perceiver\source\repos\二叉搜索树的操作集\二叉搜索树的操作集\源.c(61): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+C:\Users\Perceiver\source\repos\二叉搜索树的操作集\二叉搜索树的操作集\源.c(63): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+C:\Users\Perceiver\source\repos\二叉搜索树的操作集\二叉搜索树的操作集\源.c(169): warning C4715: “Find”: 不是所有的控件路径都返回值
+  二叉搜索树的操作集.vcxproj -> C:\Users\Perceiver\source\repos\二叉搜索树的操作集\Debug\二叉搜索树的操作集.exe

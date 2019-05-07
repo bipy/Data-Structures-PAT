@@ -43,6 +43,29 @@ void DFS(Graph G, int i,int* visited) {
 		}
 	}
 }
+void DFS_iterative(Graph G, int i, int* visited) {
+	int j;
+	int Stack[MaxN];
+	int top=-1;
+	visited[i] = 1;
+	Stack[++top] = i;
+	while (top > -1) {
+		int current = Stack[top];	//取栈顶元素值，非出栈
+		int flag = 0;	//判断参数
+		for (j = 0; j < G->Nv; j++) {
+			if (G->S[current][j] == 1 && visited[j] == 0) {
+				printf("%d ", j);
+				visited[j] = 1;
+				flag = 1;	//有路可走时
+				Stack[++top] = j;
+				break;
+			}
+		}
+		if (flag == 0) {		//无路可走则出栈
+			top--;
+		}
+	}
+}
 void BFS(Graph G, PtrQ Q, int* visited, int i) {
 	int j, v;
 	Enqueue(Q, i);
@@ -59,6 +82,7 @@ void BFS(Graph G, PtrQ Q, int* visited, int i) {
 	}
 }
 int main() {
+	/*freopen("Text.txt", "r", stdin);*/
 	int i, j, v1, v2;	
 	Graph G = (Graph)malloc(sizeof(struct Gnode));
 	PtrQ Q = Creat();
@@ -78,7 +102,7 @@ int main() {
 	for (i = 0; i < G->Nv; i++) {
 		if (visited[i] == 0) {
 			printf("{ %d ",i);
-			DFS(G, i, visited);
+			DFS_iterative(G, i, visited);
 			printf("}\n");
 		}
 	}

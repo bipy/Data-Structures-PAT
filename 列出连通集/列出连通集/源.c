@@ -111,7 +111,7 @@ int main() {
 	}
 	for (i = 0; i < G->Nv; i++) {
 		if (visited[i] == 0) {
-			printf("{ ", i);
+			printf("{ ");
 			BFS(G, Q, visited, i);
 			printf("}\n");
 		}

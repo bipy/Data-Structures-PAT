@@ -60,7 +60,7 @@ void DFS_iterative(Graph G, int i, int* visited) {
 				Stack[++top] = j;
 				break;
 			}
-		}
+	}
 		if (flag == 0) {		//无路可走则出栈
 			top--;
 		}

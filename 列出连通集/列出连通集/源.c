@@ -82,7 +82,7 @@ void BFS(Graph G, PtrQ Q, int* visited, int i) {
 	}
 }
 int main() {
-	/*freopen("Text.txt", "r", stdin);*/
+	freopen("Text.txt", "r", stdin);
 	int i, j, v1, v2;	
 	Graph G = (Graph)malloc(sizeof(struct Gnode));
 	PtrQ Q = Creat();
@@ -111,7 +111,7 @@ int main() {
 	}
 	for (i = 0; i < G->Nv; i++) {
 		if (visited[i] == 0) {
-			printf("{ ", i);
+			printf("{ ");
 			BFS(G, Q, visited, i);
 			printf("}\n");
 		}

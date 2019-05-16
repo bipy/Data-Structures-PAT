@@ -60,7 +60,7 @@ void DFS_iterative(Graph G, int i, int* visited) {
 				Stack[++top] = j;
 				break;
 			}
-		}
+	}
 		if (flag == 0) {		//无路可走则出栈
 			top--;
 		}
@@ -82,7 +82,7 @@ void BFS(Graph G, PtrQ Q, int* visited, int i) {
 	}
 }
 int main() {
-	/*freopen("Text.txt", "r", stdin);*/
+	freopen("Text.txt", "r", stdin);
 	int i, j, v1, v2;	
 	Graph G = (Graph)malloc(sizeof(struct Gnode));
 	PtrQ Q = Creat();

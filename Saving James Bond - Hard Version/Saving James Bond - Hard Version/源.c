@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #define Border 50
-#define MaxN 100
+#define MaxN 101
 #define R 7.5
 typedef struct crocodile* PtrC;
 struct crocodile {
@@ -9,7 +9,70 @@ struct crocodile {
 	int y;
 	int visited;
 	int safe;
-};
+	int distance;
+}Set[MaxN];
+void MinHeapify(int i, int HeapSize) {
+	int min, l, r;
+	l = 2 * i;
+	r = 2 * i + 1;
+	if (l <= HeapSize && Set[i].distance > Set[l].distance) {
+		min = l;
+	}
+	else {
+		min = i;
+	}
+	if (r <= HeapSize && H[min].f > H[r].f) {
+		min = r;
+	}
+	if (min != i) {
+		swap(min, i);
+		MinHeapify(min, HeapSize);
+	}
+}
+void BuildHeap(int N) {
+	int i;
+	for (i = 1; i <= N; i++) {
+		char tc, tf;
+		if (NULL == scanf("%c %c ", &tc, &tf)) {
+			return;
+		}
+		C[i] = tc;
+		F[i] = (int)(tf - 48);
+		H[i].c = tc;
+		H[i].f = (int)(tf - 48);
+		H[i].left = NULL;
+		H[i].right = NULL;
+	}
+	for (i = N / 2; i > 0; i--) {
+		MinHeapify(i, N);
+	}
+}
+HuffmanTree NewNode(int i) {
+	HuffmanTree T = (HuffmanTree)malloc(sizeof(struct Huffman));
+	T->c = H[i].c;
+	T->left = H[i].left;
+	T->right = H[i].right;
+	T->f = H[i].f;
+	return T;
+}
+HuffmanTree Delete(int HeapSize) {
+	swap(1, HeapSize);
+	HeapSize--;
+	MinHeapify(1, HeapSize);
+	return NewNode(HeapSize + 1);
+}
+void Insert(int HeapSize, HuffmanTree T) {
+	int i = HeapSize;
+	H[HeapSize].c = T->c;
+	H[HeapSize].f = T->f;
+	H[HeapSize].left = T->left;
+	H[HeapSize].right = T->right;
+	free(T);
+	while (i / 2 > 0) {
+		i /= 2;
+		MinHeapify(i, HeapSize);
+	}
+}
 void location(PtrC Set, int N, int D) {
 	int i, x0, y0;
 	Set->safe = 0;
@@ -66,11 +129,7 @@ int Check(PtrC Set, int N, int D) {
 int main() {
 	int N, D;
 	scanf("%d %d", &N, &D);
-	PtrC Set = (PtrC)malloc(sizeof(struct crocodile) * (N + 1));
-	location(Set, N, D);
-	Check(Set, N, D) ? printf("Yes\n") : printf("No\n");
-	//此处出现了“.exe出现了一个断点”无法调试
-	//解决办法为将第69行(PtrC)malloc(sizeof(struct crocodile) * (N))的N改为N+1
-	//推测为内存管理的问题
+	location(N, D);
+	Check(N, D) ? printf("Yes\n") : printf("No\n");
 	return 0;
 }

@@ -1,36 +1,8 @@
 ﻿  源.c
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(50,40): warning C4047:  “==”:“void *”与“int”的间接级别不同
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(53,4): error C2065:  “C”: 未声明的标识符
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(53,6): error C2109:  下标要求数组或指针类型
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(54,4): error C2065:  “F”: 未声明的标识符
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(54,6): error C2109:  下标要求数组或指针类型
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(55,4): error C2065:  “H”: 未声明的标识符
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(55,6): error C2109:  下标要求数组或指针类型
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(56,4): error C2065:  “H”: 未声明的标识符
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(56,6): error C2109:  下标要求数组或指针类型
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(57,4): error C2065:  “H”: 未声明的标识符
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(57,6): error C2109:  下标要求数组或指针类型
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(58,4): error C2065:  “H”: 未声明的标识符
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(58,6): error C2109:  下标要求数组或指针类型
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(50,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(64,13): error C2061:  语法错误: 标识符“NewNode”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(64,13): error C2059:  语法错误:“;”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(64,25): error C2059:  语法错误:“<parameter-list>”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(72,13): error C2061:  语法错误: 标识符“Delete”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(72,13): error C2059:  语法错误:“;”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(72,24): error C2059:  语法错误:“<parameter-list>”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(78,39): error C2146:  语法错误: 缺少“)”(在标识符“T”的前面)
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(78,39): error C2081:  “HuffmanTree”: 形参表中的名称非法
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(78,39): error C2061:  语法错误: 标识符“T”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(78,39): error C2059:  语法错误:“;”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(78,40): error C2059:  语法错误:“)”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(78,42): error C2449:  在文件范围内找到“{”(是否缺少函数头?)
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(89,1): error C2059:  语法错误:“}”
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(126,25): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(146,10): warning C4013:  “location”未定义；假设外部返回 int
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(147,9): warning C4047:  “函数”:“PtrC”与“int”的间接级别不同
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(147,9): warning C4024:  “Check”: 形参和实参 1 的类型不同
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(147,12): error C2198:  “Check”: 用于调用的参数太少
-C:\Users\Perceiver\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(145,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+D:\Users\Fidelity\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(56): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+D:\Users\Fidelity\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(163): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(243): note: 参见“freopen”的声明
+D:\Users\Fidelity\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Saving James Bond - Hard Version\源.c(164): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+  Saving James Bond - Hard Version.vcxproj -> D:\Users\Fidelity\source\repos\Data Structures PAT\Saving James Bond - Hard Version\Debug\Saving James Bond - Hard Version.exe

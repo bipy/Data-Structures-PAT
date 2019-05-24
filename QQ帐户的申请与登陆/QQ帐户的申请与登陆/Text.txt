@@ -1,0 +1,6 @@
+5
+L 1234567890 myQQ@qq.com
+N 1234567890 myQQ@qq.com
+N 1234567890 myQQ@qq.com
+L 1234567890 myQQ@qq
+L 1234567890 myQQ@qq.com

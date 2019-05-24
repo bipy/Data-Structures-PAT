@@ -1,71 +1,111 @@
 #include<stdio.h>
-#define maxN 101
-int original[maxN];
-int Judge(int* a, int* T, int N) {
+#define maxN 102
+void MergeSort(int* T, int N) {
+	printf("Merge Sort\n");
+	int ans[maxN];
+	int length = 2;
+	for (int len = length; len < N; len *= 2) {
+		int flag = 0;
+		for (int i = 0; i < N; i += len) {
+			int rear = i + len > N ? N : i + len;
+			for (int j = i; j < rear - 1; j++) {
+				if (T[j] > T[j + 1]) {
+					flag = 1;
+					break;
+				}
+			}
+			if (flag == 1) {
+				break;
+			}
+		}
+		if (flag == 0) {
+			length = len;
+		}
+	}
+	//printf("%d\n", length);
 	for (int i = 0; i < N; i++) {
-		if (a[i] != T[i]) {
-			return 0;
+		ans[i] = T[i];
+	}
+	for (int i = 0; i + length < N; i += 2 * length) {
+		int p1 = i;
+		int p2 = i + length;
+		int rear = p2 + length;
+		if (rear > N) {
+			rear = N;
+		}
+		for (int j = p1; j < rear; j++) {
+			if (p1 < i + length && p2 < rear) {
+				if (T[p1] < T[p2]) {
+					ans[j] = T[p1];
+					p1++;
+				}
+				else if (T[p1] > T[p2]) {
+					ans[j] = T[p2];
+					p2++;
+				}
+			}
+			else if (p1 < i + length && p2 >= rear) {
+				ans[j] = T[p1];
+				p1++;
+			}
+			else if (p1 >= i + length && p2 < rear) {
+				ans[j] = T[p2];
+				p2++;
+			}
 		}
 	}
-	return 1;
+	for (int i = 0; i < N - 1; i++) {
+		printf("%d ", ans[i]);
+	}
+	printf("%d", ans[N - 1]);
 }
-void MergeSort(int* a, int x, int r, int* T) {
-	if (r - x > 1) {
-		int m = (x + r) / 2;
-		int i = x, q = m, p = x;
-		MergeSort(a, x, m, T);
-		MergeSort(a, m, r, T);
-		while (p < m || q < r) {
-			if (q >= r || (p < m && a[p] <= a[q]))
-				T[i++] = a[p++];
-			else
-				T[i++] = a[q++];
-		}
-		for (i = x; i < r; i++) {
-			a[i] = T[i];
-		}
+void InsertionSort(int* T, int N, int Pos) {
+	printf("Insertion Sort\n");
+	int ans[maxN];
+	int k = 0, t;
+	for (int i = 0; i < N; i++) {
+		ans[i] = T[i];
 	}
+	t = ans[Pos];
+	while (t > ans[k]) {
+		k++;
+	}
+	for (int i = Pos; i > k; i--) {
+		ans[i] = ans[i - 1];
+	}
+	ans[k] = t;
+	for (int i = 0; i < N - 1; i++) {
+		printf("%d ", ans[i]);
+	}
+	printf("%d", ans[N - 1]);
 }
-void InsertionSort(int* a, int N) {
-	int i, j, k;
-	int flag = 0;
-	for (i = 1; i < N; i++) {
-		k = a[i];
-		j = i - 1;
-		while (j >= 0 && a[j] > k) {
-			a[j + 1] = a[j];
-			j--;
-		}
-		a[j + 1] = k;
-		if (flag == 1) {
-			return;
-		}
-		if (Judge(original, a, N)) {
-			flag = 1;
+void Judge(int* a, int* T, int N) {
+	int Pos;
+	for (int i = 0; i < N - 1; i++) {
+		if (T[i] > T[i + 1]) {
+			for (int j = i + 1; j < N; j++) {
+				if (T[j] != a[j]) {
+					MergeSort(T, N);
+					return;
+				}
+			}
+			Pos = i + 1;
+			break;
 		}
 	}
+	InsertionSort(T, N, Pos);
 }
 int main() {
 	freopen("Text.txt", "r", stdin);
 	int data[maxN], T[maxN];
 	int N, i;
-	if (NULL == scanf("%d", &N)) {
-		return;
+	scanf("%d", &N);
+	for (i = 0; i < N; i++) {
+		scanf("%d", &data[i]);
 	}
 	for (i = 0; i < N; i++) {
-		int x;
-		if (NULL == scanf("%d", &x)) {
-			return;
-		}
-		original[i] = x;
+		scanf("%d", &T[i]);
 	}
-	for (i = 0; i < N; i++) {
-		int x;
-		if (NULL == scanf("%d", &x)) {
-			return;
-		}
-		data[i] = x;
-	}
-
-
+	Judge(data, T, N);
+	return 0;
 }

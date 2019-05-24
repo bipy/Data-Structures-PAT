@@ -1,0 +1,8 @@
+﻿  源.c
+D:\Users\Fidelity\source\repos\Data Structures PAT\Hashing - Hard Version\Hashing - Hard Version\源.c(33): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+D:\Users\Fidelity\source\repos\Data Structures PAT\Hashing - Hard Version\Hashing - Hard Version\源.c(120): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(243): note: 参见“freopen”的声明
+D:\Users\Fidelity\source\repos\Data Structures PAT\Hashing - Hard Version\Hashing - Hard Version\源.c(122): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+  Hashing - Hard Version.vcxproj -> D:\Users\Fidelity\source\repos\Data Structures PAT\Hashing - Hard Version\Debug\Hashing - Hard Version.exe

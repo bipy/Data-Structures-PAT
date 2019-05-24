@@ -1,0 +1,9 @@
+﻿  源.c
+D:\Users\Fidelity\source\repos\Data Structures PAT\关键活动\关键活动\源.c(34): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+D:\Users\Fidelity\source\repos\Data Structures PAT\关键活动\关键活动\源.c(136): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(243): note: 参见“freopen”的声明
+D:\Users\Fidelity\source\repos\Data Structures PAT\关键活动\关键活动\源.c(139): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+D:\Users\Fidelity\source\repos\Data Structures PAT\关键活动\关键活动\源.c(137): warning C4101: “last”: 未引用的局部变量
+  关键活动.vcxproj -> D:\Users\Fidelity\source\repos\Data Structures PAT\关键活动\Debug\关键活动.exe

@@ -1,8 +1,0 @@
-﻿  源.c
-C:\Users\Perceiver\source\repos\Project42\Project42\源.c(33): warning C4047: “return”:“int”与“void *”的间接级别不同
-C:\Users\Perceiver\source\repos\Project42\Project42\源.c(58): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
-C:\Users\Perceiver\source\repos\Project42\Project42\源.c(111): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
-C:\Users\Perceiver\source\repos\Project42\Project42\源.c(110): warning C4101: “a”: 未引用的局部变量
-  Project42.vcxproj -> C:\Users\Perceiver\source\repos\Project42\Debug\Project42.exe
